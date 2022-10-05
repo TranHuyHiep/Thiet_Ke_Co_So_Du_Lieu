@@ -15,14 +15,39 @@ GO
 SELECT * FROM dbo.DSHS10A1
 GO
 /*2. Tạo login TranThanhPhong, tạo user TranThanhPhong cho TranThanhPhong trên CSDL 
-QLHocSinh
-Phân quyền Select trên view DSHS10A1 cho TranThanhPhong
-Đăng nhập TranThanhPhong để kiểm tra
-Tạo login PhamVanNam, tạo PhamVanNam cho PhamVanNam trên CSDL QLHocSinh
-Đăng nhập PhamVanNam để kiểm tra
-Tạo view DSHS10A2 tương tự như câu 1
-Phân quyền Select trên view DSHS10A2 cho PhamVanNam
-Đăng nhập PhamVanNam để kiểm tra */
+QLHocSinh */
+exec sp_addlogin TranThanhPhong, 1, QLHocSinh
+exec sp_adduser TranThanhPhong
+-- Phân quyền Select trên view DSHS10A1 cho TranThanhPhong
+grant select on DSHS10A1 to TranThanhPhong
+-- Đăng nhập TranThanhPhong để kiểm tra
+
+-- Tạo login PhamVanNam, tạo PhamVanNam cho PhamVanNam trên CSDL QLHocSinh
+exec sp_addlogin PhamVanNam, 1, QLHocSinh
+exec sp_adduser PhamVanNam, PVN
+-- Đăng nhập PhamVanNam để kiểm tra
+
+-- Tạo view DSHS10A2 tương tự như câu 1
+CREATE VIEW DSHS10A2
+as
+SELECT DSHS.MAHS, HO, TEN, 
+(
+	CASE
+	WHEN NU = 1 THEN N'Nữ'
+	ELSE N'Nam'
+	END
+) AS GIOI_TINH, TOAN, LY, HOA, VAN
+FROM dbo.DSHS INNER JOIN dbo.DIEM ON DIEM.MAHS = DSHS.MAHS
+WHERE MALOP = '10A2'
+GO
+SELECT * FROM dbo.DSHS10A2
+GO
+-- Phân quyền Select trên view DSHS10A2 cho PhamVanNam
+grant select on DSHS10A2 to PVN
+-- Đăng nhập PhamVanNam để kiểm tra */
+
+
+
 
 /*3. Tạo view báo cáo Kết thúc năm học gồm các thông tin: Mã học sinh, Họ và tên, Ngày sinh, 
 Giới tính, Điểm Toán, Lý, Hóa, Văn, Điểm Trung bình, Xếp loại, Sắp xếp theo xếp loại (chọn 
