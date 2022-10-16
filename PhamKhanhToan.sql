@@ -1,0 +1,1 @@
+GRANT SELECT ON cau1 TO NguyenManhCuong
