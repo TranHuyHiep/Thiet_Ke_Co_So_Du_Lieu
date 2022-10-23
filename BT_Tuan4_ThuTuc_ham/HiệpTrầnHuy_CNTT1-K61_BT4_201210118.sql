@@ -118,4 +118,29 @@ EXEC dbo.cau8 @maTrongTai = N'333',         -- nvarchar(20)
               @soLuong = @soLuong OUTPUT -- int
 PRINT @soLuong
 
--- Bài tập 2:
+--Bài tập 2:
+--1. Tạo hàm với đầu vào là năm, đầu ra là danh sách nhân viên sinh vào năm đó
+
+--2. Tạo hàm với đầu vào là số thâm niên (số năm làm việc) đầu ra là danh sách nhân viên có
+--thâm niên đó
+
+--3. Tạo hàm đầu vào là chức vụ đầu ra là những nhân viên cùng chức vụ đó
+
+--4. Tạo hàm đưa ra thông tin về nhân viên được tăng lương của ngày hôm nay (giả sử 3 năm
+--lên lương 1 lần)
+
+--5. Tạo Hàm xây dựng bảng lương của nhân viên gồm các thông tin sau:
+--- Lương = lương cơ bản * HSLuong + Phụ cấp (Giả sử lương cơ bản=1490000vnd (1.49tr))
+--- BHXH: 8%*lương (bảo hiểm xã hội)
+--- BHYT: 1,5% * lương (bảo hiểm y tế)
+--- BHTN: 1%* lương (Bảo hiểm thất nghiệp)
+--- Thuế TNCN (Thuế thu nhập cá nhân) được tính như sau:
+--Trong đó: TN= Lương - BHXH - BHYT - BHTN - 11tr (mức chịu thuế) - GTGC*4.4tr (Giảm
+--trừ gia cảnh)
+--- Phụ cấp: Mức độ công việc là A thì phụ cấp 10tr, mức độ B là 8tr, mức độ C là 5tr
+--- Thực lĩnh: Lương – (BHXH+BHYT+BHTN + Thuế TNCN)
+
+--6. Tạo thủ tục có đầu vào là mã phòng, đầu ra là số nhân viên của phòng đó và tên trưởng
+--phòng
+
+--7. Tạo thủ tục có đầu vào là mã phòng, tháng, năm, đầu ra là số tiền lương của phòng đó
