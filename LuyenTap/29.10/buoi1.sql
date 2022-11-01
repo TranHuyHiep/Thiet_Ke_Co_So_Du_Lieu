@@ -35,7 +35,21 @@ GO
 -- Tạo view 
 -- đưa ra thông tin các nhân viên và hóa đơn bán ở HN trong năm 2014
 -- đưa ra thông tin các nhân viên và hóa đơn nhập ở HN trong năm 2014
---  nhân viên ở HN trong năm 2014CREATE VIEW cau3 AS	SELECT tNhanVien.MaNV, TenNV, DiaChi, SoHDB AS SoHD, NgayBan AS Ngay	FROM dbo.tNhanVien JOIN dbo.tHoaDonBan ON tHoaDonBan.MaNV = tNhanVien.MaNV	WHERE DiaChi = N'Hà Nội' AND YEAR(NgayBan) = 2014	UNION	SELECT tNhanVien.MaNV, TenNV, DiaChi, SoHDN AS SoHD, NgayNhap AS Ngay	FROM dbo.tNhanVien JOIN dbo.tHoaDonNhap ON tHoaDonNhap.MaNV = tNhanVien.MaNV	WHERE DiaChi = N'Hà Nội' AND YEAR(NgayNhap) = 2014GOSELECT * FROM dbo.cau3--Câu 4: Thêm trường Tổng tiền và bảng nhân viên, cập nhật tự động cho trường này 
+--  nhân viên ở HN trong năm 2014
+CREATE VIEW cau3 
+AS
+	SELECT tNhanVien.MaNV, TenNV, DiaChi, SoHDB AS SoHD, NgayBan AS Ngay
+	FROM dbo.tNhanVien JOIN dbo.tHoaDonBan ON tHoaDonBan.MaNV = tNhanVien.MaNV
+	WHERE DiaChi = N'Hà Nội' AND YEAR(NgayBan) = 2014
+	UNION
+	SELECT tNhanVien.MaNV, TenNV, DiaChi, SoHDN AS SoHD, NgayNhap AS Ngay
+	FROM dbo.tNhanVien JOIN dbo.tHoaDonNhap ON tHoaDonNhap.MaNV = tNhanVien.MaNV
+	WHERE DiaChi = N'Hà Nội' AND YEAR(NgayNhap) = 2014
+GO
+
+SELECT * FROM dbo.cau3
+
+--Câu 4: Thêm trường Tổng tiền và bảng nhân viên, cập nhật tự động cho trường này 
 --mỗi khi thêm một chi tiết hóa đơn bán
 ALTER TABLE dbo.tNhanVien
 ADD TongTien MONEY
