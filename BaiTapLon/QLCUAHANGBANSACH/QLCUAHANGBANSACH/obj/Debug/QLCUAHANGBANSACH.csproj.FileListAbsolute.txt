@@ -1,0 +1,16 @@
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\bin\Debug\QLCUAHANGBANSACH.exe.config
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\bin\Debug\QLCUAHANGBANSACH.exe
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\bin\Debug\QLCUAHANGBANSACH.pdb
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\bin\Debug\Guna.UI2.dll
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.csproj.AssemblyReference.cache
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.csproj.SuggestedBindingRedirects.cache
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.Form1.resources
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.Properties.Resources.resources
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.csproj.GenerateResource.cache
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.csproj.CoreCompileInputs.cache
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.csproj.CopyComplete
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.exe
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.pdb
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.frmView.resources
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.frmFunction.resources
+E:\UTC\Nam3\Ki1\Lap_Trinh_Truc_Quan\Lap_Trinh_Truc_Quan\Code\LuyenTapThem\QLCUAHANGBANSACH\QLCUAHANGBANSACH\obj\Debug\QLCUAHANGBANSACH.frmProcedure.resources
